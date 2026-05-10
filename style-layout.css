@@ -1,0 +1,136 @@
+/* style-layout.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #2b2b2b;
+    line-height: 1.7;
+    padding: 40px 20px;
+}
+
+/* Main Layout */
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+header h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+/* Profile Image */
+header img {
+    border-radius: 50%;
+    border: 3px solid #e5e5e5;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+/* Contact Text */
+header p {
+    color: #555555;
+    font-size: 0.95rem;
+}
+
+/* Sections */
+section {
+    margin-bottom: 35px;
+}
+
+section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #1f1f1f;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #1d4ed8;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 30px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777777;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    main {
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+}
